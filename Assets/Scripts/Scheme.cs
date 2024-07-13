@@ -11,6 +11,7 @@ namespace Labyrint
         public bool rt;
         public bool dw;
         public bool lt;
+        // Проверка
     }
 
     public class Scheme
