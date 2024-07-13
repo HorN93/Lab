@@ -28,11 +28,10 @@ namespace Labyrint
 
         public Scheme (int width = 1, int height = 1)
         {
-            this.height = width * 2 + 1;
-            this.width = height * 2 + 1;
-            this.startHeight = width;
-            this.startWidth = height;
-
+            this.height = height * 2 + 1;
+            this.width = width * 2 + 1;
+            this.startHeight = height;
+            this.startWidth = width;
 
             this.building();
         }

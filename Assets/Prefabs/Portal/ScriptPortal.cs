@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class ScriptPortal : MonoBehaviour
 {
-    private GameObject PlayerGameObject;
-    private GameObject RoomGameObject;
+    public GameObject PlayerGameObject;
+    private Vector3 position;
 
     private void OnTriggerEnter(Collider other)
     {
         this.PlayerGameObject.transform.position = new Vector3(
-            this.RoomGameObject.transform.position.x,
+            this.position.x,
             this.PlayerGameObject.transform.position.y,
-            this.RoomGameObject.transform.position.z);
+            this.position.z);
     }
 
-    public void setObjects(GameObject Room, GameObject Player)
+    public void setData(GameObject Player, Vector3 position)
     {
-        this.RoomGameObject = Room;
+        this.position = position;
         this.PlayerGameObject = Player;
     }
 }
