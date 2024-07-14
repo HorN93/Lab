@@ -368,6 +368,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2472619742182976430, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
@@ -386,19 +390,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9968775
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.07896398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -406,7 +410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -9.058
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401252897698108131, guid: 25e6e1f17c8055f4c91b2e9187e11e21, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -527,7 +531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 397710867}
-  _cameraShift: {x: -0.1, y: 0, z: 0}
+  _cameraShift: {x: 0, y: 1.2, z: -2.6}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
